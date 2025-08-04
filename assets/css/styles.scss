@@ -1,0 +1,15 @@
+// Custom styles to override default theme settings
+
+.site-title a,
+.site-nav a,
+.header-links a {
+  font-size: 1.2em; /* Adjust this value to your preferred uniform font size */
+  color: #007bff;  /* This sets a blue color for all links. Use a hex code of your choice. */
+}
+
+.site-title a:hover,
+.site-nav a:hover,
+.header-links a:hover {
+  color: #0056b3; /* A slightly darker shade for the hover effect */
+  text-decoration: underline;
+}
