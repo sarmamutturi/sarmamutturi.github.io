@@ -1,12 +1,16 @@
 <header class="site-header">
   <div class="wrapper">
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    
     <nav class="site-nav">
-      <a class="page-link" href="{{ "/research/" | relative_url }}">Research Areas</a>
+      <a class="page-link" href="{{ "/research-areas/" | relative_url }}">Research Areas</a>
       <a class="page-link" href="{{ "/team/" | relative_url }}">Team</a>
       <a class="page-link" href="{{ "/publications/" | relative_url }}">Publications</a>
+      
+      <a class="page-link" href="{{ "/software-tools/" | relative_url }}">Software Tools</a>
     </nav>
   </div>
+  
   <div class="header-links">
     {% if site.google_scholar %}
     <a href="{{ site.google_scholar }}">Google Scholar</a>
