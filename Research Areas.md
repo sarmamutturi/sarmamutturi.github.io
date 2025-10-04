@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Research Areas
-permalink: /research/
+permalink: /research-areas/
 ---
 
 # Research Areas
